@@ -605,6 +605,10 @@ footer .footer STRONG {
     #contact .contact_detail {
         margin-left: 40px !important;
     }
+
+    #contact hr{
+        margin: 20px 0;
+    }
     footer .container .row {
         margin: 20px auto;
     }
