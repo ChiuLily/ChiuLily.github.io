@@ -133,6 +133,9 @@ h1 {
     /*background-color: #A5AFA5;*/
 }
 
+.navbar-default .navbar-nav>.active>a:active{
+      color: #fff;
+}
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
