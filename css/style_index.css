@@ -227,7 +227,7 @@ header h2 {}
 }
 
 .banner .row {
-    padding: 20PX 0;
+    padding: 10PX 0;
     margin: auto;
     display: flex;
 }
@@ -238,10 +238,28 @@ header h2 {}
 
 .carousel-control.left {
     background-image: none;
+    color: #E7D3A8;
 }
 
 .carousel-control.right {
     background-image: none;
+    color: #E7D3A8;
+}
+
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    right: 20%;
+    margin-right: -5px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-next {
+    left: 20%;
+    margin-left: -5px;
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 
