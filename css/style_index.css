@@ -133,9 +133,10 @@ h1 {
     /*background-color: #A5AFA5;*/
 }
 
-.navbar-default .navbar-nav>.active>a:active{
-      color: #fff;
+.navbar-default .navbar-nav>.active>a:active {
+    color: #fff;
 }
+
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
@@ -215,6 +216,36 @@ header h2 {}
 
 
 /*/header*/
+
+
+/*banner*/
+
+.banner {
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+}
+
+.banner .row {
+    padding: 20PX 0;
+    margin: auto;
+    display: flex;
+}
+
+.carousel-control {
+    text-shadow: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+
+/*/banner*/
 
 
 /*news*/
@@ -413,6 +444,10 @@ input[type="message"]:focus,
     color: #fff;
 }
 
+.send:hover {
+    opacity: .8;
+}
+
 #contact i {
     position: absolute;
     left: 10px;
@@ -580,10 +615,10 @@ footer .footer STRONG {
         height: 30px;
     }
     .portfolio-modal .close-modal .lr {
-        height: 40px;
+        height: 20px;
     }
     .portfolio-modal .close-modal .lr .rl {
-        height: 40px;
+        height: 20px;
     }
     .portfolio-modal .modal-dialog {
         margin: auto;
