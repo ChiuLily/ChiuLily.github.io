@@ -228,6 +228,8 @@ header h2 {}
     background-color: #F9F9F7;
     text-align: center;
     display: flex;
+    margin: 0;
+    padding: 0;
 }
 
 .banner .container {
