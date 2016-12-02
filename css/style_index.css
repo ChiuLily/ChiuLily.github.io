@@ -221,13 +221,13 @@ header h2 {}
 /*banner*/
 
 .banner {
-    background-color: #fff;
+    background-color: #F9F9F7;
     text-align: center;
     display: flex;
 }
 
 .banner .row {
-    padding: 10PX 0;
+    padding: 15px 0;
     margin: auto;
     display: flex;
 }

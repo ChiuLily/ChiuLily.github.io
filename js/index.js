@@ -24,3 +24,13 @@ $(document).ready(function() {
         }
     });
 });
+
+
+// <!-- 手機可用手滑動輪播 -->
+$(function() {
+    var $myCarousel = $(".carousel-inner").swiperight(function() {
+        $myCarousel.carousel('prev');
+    }).swipeleft(function() {
+        $myCarousel.carousel('next');
+    });
+});
