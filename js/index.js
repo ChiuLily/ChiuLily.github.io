@@ -41,6 +41,11 @@ $('.carousel').carousel({
     pause: "hover"
 });
 
+
+$("#toTop").click(function(){
+ scroll(0,0);
+});
+
 // $('.carousel').carousel({
 //   interval: true
 // })

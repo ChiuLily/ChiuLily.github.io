@@ -15,7 +15,7 @@
 
 <body data-target="#navbar-spy">
     <!-- nav -->
-    <nav class="navbar navbar-default navbar-fixed-top  animated bounceInDown" id="navbar-spy">
+    <nav class="navbar navbar-default navbar-fixed-top WOW animated bounceInDown" id="navbar-spy">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -54,12 +54,12 @@
     <!-- header -->
     <header>
         <section id="about">
-            <div class="container ">
+            <div class="container">
                 <div class="row">
                     <div class="col-md-4 col-lg-4 col-sm-12">
                         <h2>about</h2>
-                        <hr class="animated bounceInRight">
-                        <p class="animated bounceInLeft">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
+                        <hr class="wow animated bounceInRight">
+                        <p class="wow animated bounceInLeft">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. AeneaLorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
                     </div>
                 </div>
             </div>
@@ -111,7 +111,7 @@
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-5  col-lg-5 left-news">
                         <h2>news</h2>
-                        <hr>
+                        <hr class="wow animated bounceInRight">
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's e (injected humour and the like).
                         </p>
                     </div>
@@ -133,7 +133,7 @@
                         <p id="menu_detail">Lorem ipsum dolor sit amet, consectetuer</p>
                     </div>
                     <div class="col-md-12">
-                        <hr id="menu_title_hr">
+                        <hr id="menu_title_hr" class="wow animated bounceInRight">
                     </div>
                 </div>
                 <div class="row" id="menu_photo">
@@ -225,12 +225,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h2>Q & A</h2>
-                        <hr>
+                        <hr class="wow animated bounceInRight">
                         <div class="panel-group" id="accordion">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1"><i class="fa fa-plus-circle" aria-hidden="true"></i>
         Q1 : Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
       </h4>
                                 </div>
@@ -241,7 +241,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2"><i class="fa fa-plus-circle" aria-hidden="true"></i>
         Q2 : Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
       </h4>
                                 </div>
@@ -252,7 +252,7 @@
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3"><i class="fa fa-plus-circle" aria-hidden="true"></i>
          Q3 : Lorem ipsum dolor sit amet, consectetur adipisicing elit?</a>
       </h4>
                                 </div>
@@ -274,7 +274,7 @@
                         <h2>contact</h2>
                     </div>
                     <div class="col-md-12">
-                        <hr id="menu_title_hr">
+                        <hr id="menu_title_hr" class="wow animated bounceInRight">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec</p>
                     </div>
                 </div>
@@ -319,6 +319,12 @@
             <a href="?mobile=on">Desktop</a> | <a href="?mobile=off">Mobile</a>
         </footer>
         <!-- footer -->
+        <!-- go to top -->
+        <a onclick="scroll(0,0)">
+            <div id="toTop" class="fa fa-chevron-up fix">::before</div>
+        </a>
+        <div class="div2"></div>
+        <!-- /go to top -->
         <!-- Portfolio Modal 1 -->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="container">
@@ -493,6 +499,10 @@
         function mobileswitch() {
             document.querySelector('style').textContent += "@media(max-width:768px){.container{width: 1170px;}.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {float: left;}.col-md-12 {width: 100%;}.col-md-11 {width: 91.66666667%;}.col-md-10 {width: 83.33333333%;}.col-md-9 {width: 75%;}.col-md-8 {width: 66.66666667%;}.col-md-7 {width: 58.33333333%;}.col-md-6 {width: 50%;}.col-md-5 {width: 41.66666667%;}.col-md-4 {width: 33.33333333%;}.col-md-3 {width: 25%;}.col-md-2 {width: 16.66666667%;}.col-md-1 {width: 8.33333333%;}}";
         }
+        </script>
+        <script src="js/wow.min.js"></script>
+        <script>
+        new WOW().init();
         </script>
 </body>
 

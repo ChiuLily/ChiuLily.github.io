@@ -220,19 +220,18 @@ header h2 {}
 
 /*banner*/
 
-
-
 .banner {
     background-color: #F9F9F9;
     text-align: center;
     display: flex;
-    padding:20px  auto;
+    padding: 20px auto;
 }
 
-.banner-inner{
+.banner-inner {
     display: flex;
     margin: auto;
 }
+
 
 /*
 #myCarousel{
@@ -481,9 +480,17 @@ header h2 {}
 }
 
 
+/*.fa-sort-desc{
+    display: none;
+}*/
+
+.fa-plus-circle {
+    margin-right: 10px;
+}
+
+
 /*/QandA*/
 
-;
 
 /*contact*/
 
@@ -583,15 +590,6 @@ footer {
 footer .container .row {
     margin: 50px 0px;
 }
-
-
-/*footer .address{
-   text-align: left;
-}
-footer .footer {
-    font-size: 1em;
-    text-align: right;
-}*/
 
 footer .footer STRONG {
     color: #fff;
@@ -740,6 +738,10 @@ footer .footer STRONG {
         width: 100vw !important;
         border-bottom: 1px solid #737371;
         padding: 0 0;
+    }
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 500px;
     }
     header .row {
         margin-top: 80px;
