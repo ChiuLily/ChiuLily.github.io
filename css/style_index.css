@@ -223,30 +223,22 @@ header h2 {}
 
 
 .banner {
-    background-color: #F9F9F7;
+    background-color: #F9F9F9;
     text-align: center;
     display: flex;
-    padding: 0;
+    padding:20px  auto;
 }
 
-.banner .container {
-    margin: 0;
-    padding: 0;
-}
-
-.banner .row {
-    padding: 15px 0px;
-    margin: auto;
+.banner-inner{
     display: flex;
+    margin: auto;
 }
 
-@media (max-width: 768px) {
-  /*  .banner .item {
-       
-        margin-left: 0px;
-        margin-left: 10px;
-    }*/
-}
+/*
+#myCarousel{
+    background-color: #fff;
+    margin: auto;
+}*/
 
 .carousel-control {
     text-shadow: none;

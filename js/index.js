@@ -26,14 +26,14 @@ $(document).ready(function() {
 });
 
 
-<!-- 手機可用手滑動輪播 -->
-$(function() {
-    var $myCarousel = $(".carousel-inner").swiperight(function() {
-        $myCarousel.carousel('prev');
-    }).swipeleft(function() {
-        $myCarousel.carousel('next');
-    });
-});
+// <!-- 手機可用手滑動輪播 -->
+// $(function() {
+//     var $myCarousel = $(".carousel-inner").swiperight(function() {
+//         $myCarousel.carousel('prev');
+//     }).swipeleft(function() {
+//         $myCarousel.carousel('next');
+//     });
+// });
 
 //輪播秒數與滑入停止
 $('.carousel').carousel({
@@ -41,6 +41,6 @@ $('.carousel').carousel({
     pause: "hover"
 });
 
-$('.carousel').carousel({
-  interval: true
-})
+// $('.carousel').carousel({
+//   interval: true
+// })
