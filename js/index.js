@@ -34,3 +34,9 @@ $(function() {
         $myCarousel.carousel('next');
     });
 });
+
+//輪播秒數與滑入停止
+$('.carousel').carousel({
+    interval:  2000,
+    pause: "hover"
+});
