@@ -220,17 +220,23 @@ header h2 {}
 
 /*banner*/
 
+.banner_outside {
+    background-color: #fff;
+}
+
 .banner {
     background-color: #F9F9F7;
     text-align: center;
     display: flex;
 }
-.banner .container{
+
+.banner .container {
     margin: 0;
+    padding: 0;
 }
 
 .banner .row {
-    padding: 15px 0;
+    padding: 15px 0px;
     margin: auto;
     display: flex;
 }
@@ -469,7 +475,6 @@ header h2 {}
 .panel-default>.panel-heading a:focus,
 .panel-default>.panel-heading a:hover {
     text-decoration: none;
-
 }
 
 .panel-title {
