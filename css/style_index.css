@@ -222,23 +222,18 @@ header h2 {}
 
 .banner_outside {
     background-color: #fff;
-     text-align: center;
-     padding: 0;
-     display: flex;
 }
 
 .banner {
     background-color: #F9F9F7;
     text-align: center;
     display: flex;
-    margin: auto;
     padding: 0;
 }
 
 .banner .container {
     margin: 0;
     padding: 0;
-
 }
 
 .banner .row {
@@ -248,7 +243,11 @@ header h2 {}
 }
 
 @media (max-width: 768px) {
-    margin-left: -15px;
+  /*  .banner .item {
+       
+        margin-left: 0px;
+        margin-left: 10px;
+    }*/
 }
 
 .carousel-control {
