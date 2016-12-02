@@ -241,7 +241,10 @@ header h2 {}
     padding: 15px 0px;
     margin: auto;
     display: flex;
+    margin-left: -15px;
+
 }
+
 
 .carousel-control {
     text-shadow: none;
