@@ -40,3 +40,7 @@ $('.carousel').carousel({
     interval:  2000,
     pause: "hover"
 });
+
+$('.carousel').carousel({
+  interval: true
+})

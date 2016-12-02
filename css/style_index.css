@@ -225,6 +225,9 @@ header h2 {}
     text-align: center;
     display: flex;
 }
+.banner .container{
+    margin: 0;
+}
 
 .banner .row {
     padding: 15px 0;
@@ -466,7 +469,7 @@ header h2 {}
 .panel-default>.panel-heading a:focus,
 .panel-default>.panel-heading a:hover {
     text-decoration: none;
-    
+
 }
 
 .panel-title {
