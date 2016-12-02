@@ -185,7 +185,7 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%;*/
-    width: 100vw;
+   /* width: 100vw;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -264,30 +264,34 @@ header h2 {}
 
 
 /*淡入淡出效果*/
+
 .carousel-fade .carousel-inner .item {
     transition-property: opacity;
 }
-.carousel-fade .carousel-inner .item,  
-.carousel-fade .carousel-inner .active.left,  
+
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
-   opacity: 0;
+    opacity: 0;
 }
-.carousel-fade .carousel-inner .active,  
-.carousel-fade .carousel-inner .next.left,  
+
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
-    opacity: 1; 
+    opacity: 1;
 }
-.carousel-fade .carousel-inner .next,  
-.carousel-fade .carousel-inner .prev,  
-.carousel-fade .carousel-inner .active.left,  
+
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
     left: 0;
     transform: translate3d(0, 0, 0);
 }
+
 .carousel-fade .carousel-control {
     z-index: 2;
 }
-
 
 
 /*/banner*/
@@ -427,10 +431,45 @@ header h2 {}
 /*/menu*/
 
 
+/*QandA*/
+
+#QandA {
+    background: #E7D3A8;
+    margin-top: 0;
+    padding: 20px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+#QandA hr {
+    border: 2.5px dashed #fff;
+    margin-bottom: 20px;
+}
+
+.panel-default {
+    background-color: #4A9A77;
+    color: #fff;
+    font-size: 1em;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}
+
+.panel-title {
+    font-size: 1.3em;
+}
+
+
+/*/QandA*/
+
+;
+
 /*contact*/
 
-#contact {
-    background-color: #efefef;
+section #contact {
+    background-color: #EFEFEF;
 }
 
 #contact p {
