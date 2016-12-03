@@ -282,12 +282,13 @@
                 </div>
                 <div class="row form">
                     <div class="col-md-8">
-                        <form action="mailto=she963258@gmail.com" method="post">
-                            <input class="wow fadeInUp" type="text" name="fullname" value="FULL NAME">
+                        <form action="js/email.php" method="post">
+
+                            <input class="wow fadeInUp" type="text" name="fullname" value="FULL NAME" onclick="if(this.value=='FULL NAME') this.value='';"/>
                             <br>
-                            <input class="wow fadeInUp" type="email" name="email" value="EMAIL">
+                            <input class="wow fadeInUp" type="email" name="email" value="EMAIL" onclick="if(this.value=='EMAIL') this.value='';"/>
                             <br>
-                            <input class="wow fadeInUp" class="message" type="text" name="message" value="MESSAGE">
+                            <input class="wow fadeInUp" class="message" type="text" name="message" value="MESSAGE" onclick="if(this.value=='MESSAGE') this.value='';"/>
                             <br>
                             <input class="send wow fadeInUp" type="submit" value="SEND">
                         </form>
