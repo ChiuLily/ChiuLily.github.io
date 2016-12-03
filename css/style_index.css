@@ -224,20 +224,12 @@ header h2 {}
     background-color: #F9F9F9;
     text-align: center;
     display: flex;
-    padding: 20px auto;
 }
 
 .banner-inner {
     display: flex;
     margin: auto;
 }
-
-
-/*
-#myCarousel{
-    background-color: #fff;
-    margin: auto;
-}*/
 
 .carousel-control {
     text-shadow: none;
@@ -259,6 +251,9 @@ header h2 {}
     margin-right: -5px;
     background-color: #fff;
     border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 10px 0;
 }
 
 .carousel-control .glyphicon-chevron-left,
@@ -267,6 +262,9 @@ header h2 {}
     margin-left: -5px;
     background-color: #fff;
     border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    padding: 10px 0;
 }
 
 
@@ -597,6 +595,25 @@ footer .footer STRONG {
 
 
 /*/footer*/
+
+#toTop {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    padding: 15px 0;
+    background-color: rgba(0, 0, 0, .5);
+    color: rgba(255, 255, 255, .5);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#toTop:hover,
+#toTop:focus {
+    background-color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .8);
+}
 
 
 /*modal*/
