@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="css/bootstrap-touch-carousel.css">
 </head>
 
-<body data-target="#navbar-spy">
+<body id="page-top" class="index">
     <!-- nav -->
-    <nav class="navbar navbar-default navbar-fixed-top WOW animated bounceInDown" id="navbar-spy">
+    <nav class="navbar navbar-default navbar-fixed-top WOW animated bounceInDown" id="#mainNav">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -25,14 +25,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h1><a class="navbar-brand page-scroll logo" href="#">CAFE SHOP</a></h1>
+                <h1><a class="navbar-brand page-scroll logo" href="#page-top">CAFE SHOP</a></h1>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <li class="hidden">
+                    <li class="hidden">
                         <a href="#page-top"></a>
-                    </li> -->
+                    </li>
                     <li><a class="page-scroll" href="#about">about</a></li>
                     <li><a class="page-scroll" href="#news">news</a></li>
                     <li><a class="page-scroll" href="#menu">menu</a></li>
@@ -320,8 +320,9 @@
         </footer>
         <!-- footer -->
         <!-- go to top -->
+        <script>window.scrollTo(1000,1000)</script>
         <a onclick="scroll(0,0)">
-            <div id="toTop" class="fa fa-chevron-up fix wow animated bounceInDown "></div>
+            <div id="toTop" class="fa fa-chevron-up fix"></div>
         </a>
         <div class="div2"></div>
         <!-- /go to top -->

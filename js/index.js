@@ -1,51 +1,90 @@
-// <!-- toggle自動收合 -->
+// // <!-- toggle自動收合 -->
+// $(function() {
+//     // Closes the Responsive Menu on Menu Item Click
+//     $('.navbar-collapse ul li a').click(function() {
+//         $('.navbar-toggle:visible').click();
+//     });
+// });
+
+
+// // <!-- nav scroll -->
+// $(document).ready(function() {
+//     $('nav li a').click(function() {
+//         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+//             var $target = $(this.hash);
+//             $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
+//             if ($target.length) {
+//                 var targetOffset = $target.offset().top;
+//                 $('html,body')
+//                     .animate({
+//                         scrollTop: targetOffset
+//                     }, 1000);
+//                 return false;
+//             }
+//         }
+//     });
+
+// });
 $(function() {
+
+    "use strict"; // Start of use strict
+
+    // jQuery for page scrolling feature - requires jQuery Easing plugin
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: ($($anchor.attr('href')).offset().top - 50)
+        }, 1250, 'easeInOutExpo');
+        event.preventDefault();
+    });
+
+    // Highlight the top nav as scrolling occurs
+    $('body').scrollspy({
+        target: '.navbar-fixed-top',
+        offset: 51
+    });
+
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
         $('.navbar-toggle:visible').click();
     });
-});
 
-
-// <!-- nav scroll -->
-$(document).ready(function() {
-    $('nav li a').click(function() {
-        if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-            var $target = $(this.hash);
-            $target = $target.length && $target || $('[name=' + this.hash.slice(1) + ']');
-            if ($target.length) {
-                var targetOffset = $target.offset().top;
-                $('html,body')
-                    .animate({
-                        scrollTop: targetOffset
-                    }, 1000);
-                return false;
-            }
+    // Offset for Main Navigation
+    $('#mainNav').affix({
+        offset: {
+            top: 100
         }
     });
 });
 
 
-// <!-- 手機可用手滑動輪播 -->
-// $(function() {
-//     var $myCarousel = $(".carousel-inner").swiperight(function() {
-//         $myCarousel.carousel('prev');
-//     }).swipeleft(function() {
-//         $myCarousel.carousel('next');
-//     });
-// });
+
+// totop
+$(document).ready(function () {
+
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 200) {
+            $('#toTop').fadeIn();
+        } else {
+            $('#toTop').fadeOut();
+        }
+    });
+
+    $('#toTop').click(function () {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 600);
+        return false;
+    });
+
+});
 
 //輪播秒數與滑入停止
 $('.carousel').carousel({
-    interval:  2000,
+    interval: 2000,
     pause: "hover"
 });
 
 
-$("#toTop").click(function(){
- scroll(0,0);
-});
 
-// $('.carousel').carousel({
-//   interval: true
-// })
+

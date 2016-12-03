@@ -30,7 +30,7 @@ h2 {
     border: none;
     border-radius: 0;
     margin-bottom: 0;
-    z-index: 100;
+    /*z-index: 100;*/
 }
 
 .navbar-default .navbar-toggle {
