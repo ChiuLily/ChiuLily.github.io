@@ -108,7 +108,8 @@ h1 {
     .navbar-text {
         float: none;
     }
-    since 3.1.0 .navbar-collapse.collapse.in {
+    /*since 3.1.0 */
+    .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
