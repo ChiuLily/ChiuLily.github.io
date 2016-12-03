@@ -82,14 +82,6 @@ $(document).ready(function () {
 
 
 //collapse變換icon
-// $('#QandA').on('shown.bs.collapse', function () {
-//    $(".fa").removeClass("fa-plus-circle").addClass("fa-sort-desc");
-// });
-
-// $('#QandA').on('hidden.bs.collapse', function () {
-//    $(".fa").removeClass(".fa-sort-desc").addClass(".fa-plus-circle");
-// });
-
 $(document).ready(function () {
      $('.collapse')
          .on('shown.bs.collapse', function() {
