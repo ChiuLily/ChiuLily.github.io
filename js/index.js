@@ -79,6 +79,35 @@ $(document).ready(function () {
 
 });
 
+
+
+//collapse變換icon
+// $('#QandA').on('shown.bs.collapse', function () {
+//    $(".fa").removeClass("fa-plus-circle").addClass("fa-sort-desc");
+// });
+
+// $('#QandA').on('hidden.bs.collapse', function () {
+//    $(".fa").removeClass(".fa-sort-desc").addClass(".fa-plus-circle");
+// });
+
+$(document).ready(function () {
+     $('.collapse')
+         .on('shown.bs.collapse', function() {
+             $(this)
+                 .parent()
+                 .find(".fa-plus-circle")
+                 .removeClass("fa-plus-circle")
+                 .addClass("fa-chevron-circle-down");
+             })
+         .on('hidden.bs.collapse', function() {
+             $(this)
+                 .parent()
+                 .find(".fa-chevron-circle-down")
+                 .removeClass("fa-chevron-circle-down")
+                 .addClass("fa-plus-circle");
+             });
+         });
+
 //輪播秒數與滑入停止
 $('.carousel').carousel({
     interval: 2000,

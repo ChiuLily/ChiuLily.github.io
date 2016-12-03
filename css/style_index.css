@@ -477,15 +477,11 @@ header h2 {}
     font-size: 1.2em;
 }
 
-
-/*.fa-sort-desc{
-    display: none;
-}*/
-
-.fa-plus-circle {
+.panel-default i{
     margin-right: 10px;
+    /*padding: 10px 0;*/
+    /*display: flex;*/
 }
-
 
 /*/QandA*/
 
