@@ -108,8 +108,7 @@ h1 {
     .navbar-text {
         float: none;
     }
-    since 3.1.0 
-    .navbar-collapse.collapse.in {
+    since 3.1.0 .navbar-collapse.collapse.in {
         display: block!important;
     }
     .collapsing {
@@ -231,7 +230,7 @@ header h2 {}
     margin: auto;
 }
 
-.carousel{
+.carousel {
     margin: 20px;
 }
 
@@ -481,11 +480,12 @@ header h2 {}
     font-size: 1.2em;
 }
 
-.panel-default i{
+.panel-default i {
     margin-right: 10px;
     /*padding: 10px 0;*/
     /*display: flex;*/
 }
+
 
 /*/QandA*/
 
@@ -535,7 +535,7 @@ input[type="email"]:focus,
 input[type="message"]:focus,
 .uneditable-input:focus {
     border-color: #D39595;
-    box-shadow: 0 1px 1px #D39595 inset, 0 0 5px #D39595;
+    box-shadow: 0 1px 1px #D39595 inset;
     outline: 0 none;
 }
 

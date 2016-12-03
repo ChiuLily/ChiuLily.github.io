@@ -60,9 +60,9 @@ $(document).ready(function() {
 
 
 // totop
-$(document).ready(function () {
+$(document).ready(function() {
 
-    $(window).scroll(function () {
+    $(window).scroll(function() {
         if ($(this).scrollTop() > 200) {
             $('#toTop').fadeIn();
         } else {
@@ -70,7 +70,7 @@ $(document).ready(function () {
         }
     });
 
-    $('#toTop').click(function () {
+    $('#toTop').click(function() {
         $("html, body").animate({
             scrollTop: 0
         }, 600);
@@ -82,30 +82,26 @@ $(document).ready(function () {
 
 
 //collapse變換icon
-$(document).ready(function () {
-     $('.collapse')
-         .on('shown.bs.collapse', function() {
-             $(this)
-                 .parent()
-                 .find(".fa-plus-circle")
-                 .removeClass("fa-plus-circle")
-                 .addClass("fa-chevron-circle-down");
-             })
-         .on('hidden.bs.collapse', function() {
-             $(this)
-                 .parent()
-                 .find(".fa-chevron-circle-down")
-                 .removeClass("fa-chevron-circle-down")
-                 .addClass("fa-plus-circle");
-             });
-         });
+$(document).ready(function() {
+    $('.collapse')
+        .on('shown.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-plus-circle")
+                .removeClass("fa-plus-circle")
+                .addClass("fa-chevron-circle-down");
+        })
+        .on('hidden.bs.collapse', function() {
+            $(this)
+                .parent()
+                .find(".fa-chevron-circle-down")
+                .removeClass("fa-chevron-circle-down")
+                .addClass("fa-plus-circle");
+        });
+});
 
 //輪播秒數與滑入停止
 $('.carousel').carousel({
     interval: 2000,
     pause: "hover"
 });
-
-
-
-
