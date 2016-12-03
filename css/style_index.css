@@ -94,7 +94,7 @@ h1 {
     .navbar-nav>li {
         border: none;
         float: none;
-        /*width: 100vw;*/
+        width: 100vw;
     }
     .navbar {
         margin: 0;
@@ -108,7 +108,7 @@ h1 {
     .navbar-text {
         float: none;
     }
-    /*since 3.1.0 */
+    since 3.1.0 
     .navbar-collapse.collapse.in {
         display: block!important;
     }
