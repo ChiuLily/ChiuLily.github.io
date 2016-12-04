@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -69,20 +69,22 @@
         </div>
         <!-- /header -->
         <!-- banner -->
-        <section class="single-item">
-            <div>
-                <img src="images/banner/banner1.jpg" class="img-responsive">
-            </div>
-            <div>
-                <img src="images/banner/banner2.jpg" class="img-responsive">
-            </div>
-            <div>
-                <img src="images/banner/banner3.jpg" class="img-responsive">
-            </div>
-            <div>
-                <img src="images/banner/banner4.jpg" class="img-responsive">
-            </div>
-        </section>
+        <div class="container banner">
+            <section class="single-item">
+                <div>
+                    <img src="images/banner/banner1.jpg" class="img-responsive">
+                </div>
+                <div>
+                    <img src="images/banner/banner2.jpg" class="img-responsive">
+                </div>
+                <div>
+                    <img src="images/banner/banner3.jpg" class="img-responsive">
+                </div>
+                <div>
+                    <img src="images/banner/banner4.jpg" class="img-responsive">
+                </div>
+            </section>
+        </div>
         <!-- /banner -->
         <!-- news -->
         <section id="news">
@@ -482,7 +484,10 @@
         </script>
         <script src="slick/slick.js"></script>
         <script type="text/javascript">
-        $('.single-item').slick();
+        $(".single-item").slick({
+            dots: true,
+            infinite: true
+        });
         </script>
         <script src="js/wow.min.js"></script>
         <script>

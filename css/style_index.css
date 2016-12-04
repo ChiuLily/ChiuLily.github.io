@@ -220,57 +220,11 @@ header h2 {}
 
 /*banner*/
 
-.banner {
-    background-color: #F9F9F9;
-    text-align: center;
-    display: flex;
-}
-
-.banner-inner {
-    display: flex;
-    margin: auto;
-}
-
-.carousel {
-    margin: 20px;
-}
-
-.carousel-control {
-    text-shadow: none;
-}
-
-.carousel-control.left {
-    background-image: none;
-    color: #E7D3A8;
-}
-
-.carousel-control.right {
-    background-image: none;
-    color: #E7D3A8;
-}
-
-.carousel-control .glyphicon-chevron-right,
-.carousel-control .icon-next {
-    right: 20%;
-    margin-right: -5px;
+.banner{
     background-color: #fff;
-    border-radius: 5px;
-    height: 50px;
-    width: 50px;
-    padding: 10px 0;
+    padding: 10px;
+    margin: 0;
 }
-
-.carousel-control .glyphicon-chevron-left,
-.carousel-control .icon-next {
-    left: 20%;
-    margin-left: -5px;
-    background-color: #fff;
-    border-radius: 5px;
-    height: 50px;
-    width: 50px;
-    padding: 10px 0;
-}
-
 
 /*淡入淡出效果*/
 
