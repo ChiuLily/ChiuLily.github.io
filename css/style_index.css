@@ -220,17 +220,20 @@ header h2 {}
 
 /*banner*/
 
-.banner-item {
-    margin: 10px;
+.banner {
+
+   text-align: center;  
+   margin: 0;
+   padding: 10px;
 
     background-color: rgba(255,255,255,.7);
 }
 
-.single-item {
-    margin: 0;
-   padding-top: 10px;
+/*.single-item {
+    margin: auto;
+   padding: 10px;
 }
-
+*/
 
 /*淡入淡出效果*/
 
