@@ -9,9 +9,7 @@ font-family: 'Varela Round', sans-serif;
 font-family: 'Share', cursive;
 font-family: 'Orienta', sans-serif;
 font-family: 'ABeeZee', sans-serif;*/
-body{
-    margin:0;
-}
+
 h2 {
     font-size: 2em;
     color: #c97878;
@@ -222,10 +220,9 @@ header h2 {}
 
 /*banner*/
 
-.banner{
-    background-color: #fff;
-    padding: 10px;
+.single-item{
     margin: 0;
+    padding: 0;
 }
 
 /*淡入淡出效果*/
