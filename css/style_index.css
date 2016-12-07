@@ -614,6 +614,7 @@ footer .footer STRONG {
     display: inline-block;
     position: relative;
     margin: 0 auto;
+
 }
 
 .portfolio-link:focus {
@@ -635,6 +636,7 @@ footer .footer STRONG {
 
 .portfolio-link .portfolio-hover:hover {
     opacity: 1;
+
 }
 
 .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -646,6 +648,7 @@ footer .footer STRONG {
     top: 50%;
     margin-top: -12px;
     color: #E7D3A8;
+
 }
 
 .portfolio-modal .modal-dialog {
@@ -674,12 +677,13 @@ footer .footer STRONG {
     margin-right: auto;
     margin-left: auto;
     display: flex;
+
 }
 
 .portfolio-modal .close-modal {
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     top: 20px;
     right: 40px;
     cursor: pointer;
@@ -687,6 +691,7 @@ footer .footer STRONG {
 
 .portfolio-modal .close-modal:hover {
     opacity: 0.3;
+    cursor: pointer;
 }
 
 .portfolio-modal .close-modal .lr {
