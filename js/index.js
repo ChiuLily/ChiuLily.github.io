@@ -23,11 +23,12 @@ $(document).ready(function() {
             }
         }
     });
+});
 // $('[data-spy="scroll"]').each(function() {
 //     var $spy = $(this).scrollspy('refresh')
 // });
 
-// });
+
 // $(function() {
 
 //     "use strict"; // Start of use strict
@@ -108,3 +109,8 @@ $('.carousel-inner').carousel({
     interval: 2000,
     pause: "hover"
 });
+
+
+
+
+

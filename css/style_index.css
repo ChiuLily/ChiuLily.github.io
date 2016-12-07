@@ -81,29 +81,31 @@ h1 {
     .navbar-header {
         float: none;
     }
+
     .navbar-toggle {
         display: block;
+        
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
         box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+        text-align: center;
     }
     .navbar-collapse.collapse {
         display: none!important;
     }
-    .navbar-nav>li {
-        border: none;
-        float: none;
-        width: 100vw;
-    }
     .navbar {
-        margin: 0;
-        border: none;
+        margin: auto;
     }
     .navbar-nav>li>a {
+        float: none;
         text-align: center;
-        padding: 0 330px;
+        padding: 0 335px;
         border-bottom: 1px solid #737371;
+        border-right: none;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
     }
     .navbar-text {
         float: none;
@@ -227,31 +229,38 @@ header h2 {}
 .carousel-control.left {
     background-image: none;
 }
+
+
 /*.glyphicon{
     padding: 5px;
     background-color: rgba(0,0,0,.8);
     border-radius: 10px;
 }*/
+
 .carousel-control {
-     text-align: center;
-     display: flex;
-      width: 50px;
+    text-align: center;
+    display: flex;
+    width: 50px;
     height: 50px;
     margin: auto;
 }
-.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
-    background-color: rgba(0,0,0,.8);
+
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev {
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 5px;
 }
 
-.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
-    background-color: rgba(0,0,0,.8);
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next {
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 5px;
     /*width: 30px;
     height: 30px;
     text-align: center;
    padding-top: 4px;*/
 }
+
 
 /*淡入淡出效果*/
 
