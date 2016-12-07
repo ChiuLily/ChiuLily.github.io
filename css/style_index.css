@@ -227,7 +227,31 @@ header h2 {}
 .carousel-control.left {
     background-image: none;
 }
+/*.glyphicon{
+    padding: 5px;
+    background-color: rgba(0,0,0,.8);
+    border-radius: 10px;
+}*/
+.carousel-control {
+     text-align: center;
+     display: flex;
+      width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    background-color: rgba(0,0,0,.8);
+    border-radius: 5px;
+}
 
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next{
+    background-color: rgba(0,0,0,.8);
+    border-radius: 5px;
+    /*width: 30px;
+    height: 30px;
+    text-align: center;
+   padding-top: 4px;*/
+}
 
 /*淡入淡出效果*/
 
