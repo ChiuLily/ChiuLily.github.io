@@ -10,15 +10,13 @@ font-family: 'Share', cursive;
 font-family: 'Orienta', sans-serif;
 font-family: 'ABeeZee', sans-serif;*/
 
-
-
 h2 {
     font-size: 2em;
     color: #c97878;
     display: inline-block;
     background-color: #fff799;
     padding: 15px 25px;
-     -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
     box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 1);
     font-family: 'Karla', sans-serif;
@@ -225,44 +223,11 @@ header h2 {}
 
 /*banner*/
 
-
-.slick-prev {
-    position: absolute;
-    z-index: 2;
-    margin-left: 50px;
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
+.carousel-control.right,
+.carousel-control.left {
+    background-image: none;
 }
 
-.slick-next {
-    position: absolute;
-    z-index: 2;
-    margin-right: 50px;
-    background-color: rgba(0, 0, 0, .5);
-    border-radius: 10px;
-}
-
-.slick-next:hover,
-.slick-next:focus,
-.slick-prev:hover,
-.slick-prev:focus {
-     background-color: rgba(0, 0, 0, .3);
-}
-
-.slick-dots li button::before {
-    font-family: slick;
-    font-size: 25px;
-    line-height: 20px;
-    position: absolute;
-    top: -50px;
-    left: 0px;
-    width: 20px;
-    height: 20px;
-    content: "•";
-    text-align: center;
-    color: rgba(0,0,0,.5);
-    -webkit-font-smoothing: antialiased;
-}
 
 /*淡入淡出效果*/
 

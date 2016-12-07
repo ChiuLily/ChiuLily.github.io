@@ -101,7 +101,7 @@ $(document).ready(function() {
 });
 
 //輪播秒數與滑入停止
-$('.carousel').carousel({
+$('.carousel-inner').carousel({
     interval: 2000,
     pause: "hover"
 });
