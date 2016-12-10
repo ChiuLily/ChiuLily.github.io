@@ -81,10 +81,8 @@ h1 {
     .navbar-header {
         float: none;
     }
-
     .navbar-toggle {
         display: block;
-        
     }
     .navbar-collapse {
         border-top: 1px solid transparent;
@@ -614,7 +612,6 @@ footer .footer STRONG {
     display: inline-block;
     position: relative;
     margin: 0 auto;
-
 }
 
 .portfolio-link:focus {
@@ -636,7 +633,6 @@ footer .footer STRONG {
 
 .portfolio-link .portfolio-hover:hover {
     opacity: 1;
-
 }
 
 .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -648,7 +644,6 @@ footer .footer STRONG {
     top: 50%;
     margin-top: -12px;
     color: #E7D3A8;
-
 }
 
 .portfolio-modal .modal-dialog {
@@ -677,7 +672,6 @@ footer .footer STRONG {
     margin-right: auto;
     margin-left: auto;
     display: flex;
-
 }
 
 .portfolio-modal .close-modal {
@@ -797,6 +791,9 @@ footer .footer STRONG {
     #contact hr {
         margin: 20px 0;
     }
+    footer{
+        font-size: .2em;
+    }
     footer .container .row {
         margin: 20px auto;
     }
@@ -836,6 +833,8 @@ footer .footer STRONG {
         text-align: center;
     }
 }
+
+
 
 
 }
